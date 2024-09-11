@@ -1,0 +1,13 @@
+use docker hub pra pegar images/templates de docker images;
+
+drizzle-orm(object-relational-map)/kit é uma dependência pra auxiliar na conexão ao banco de dados;
+npx drizzle-kit generate (gerar o arquivo.sql para criação da tabela)
+npx drizzle-kit migrate (para migrar o arquivo.sql para o banco pra criação da tabela)
+npx drizzle-kit studio (para ver as tabelas criadas online via localhost)
+
+zod é uma dependência para validação de dados, pra conferir se não vai estar nulo e etc;
+fastify-type-provider-zod é uma dependência que faz validação zod no fastify
+
+@paralleldrive/cuid2 é uma dependência para autoincrementar o ID usando cuid2;
+
+dayjs dependência para auxiliar colocando datas em variaveis;
